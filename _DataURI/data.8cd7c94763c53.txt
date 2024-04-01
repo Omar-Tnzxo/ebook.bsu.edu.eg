@@ -1,0 +1,1 @@
+chrome-extension://goomgkhogpapllglkkhopbhcmeipfpbj/js/content-script.js

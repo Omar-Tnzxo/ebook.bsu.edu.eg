@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" />
+    <meta name="author" content="hanzcanz" />
+    <title>
+        منصة الكتاب الالكترونى- جامعة بنى سويف
+    </title>
+
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Bootstrap RTL CSS -->
+
+
+    <!-- Custom CSS -->
+
+
+    <!-- Responsive CSS -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <script type="text/javascript">
+        function preventBack() {
+            window.history.forward();
+        }
+        setTimeout("preventBack()", 0);
+        window.onunload = function() {
+            null
+        };
+    </script>
+    <script type="text/javascript">
+        window.history.forward();
+
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rtl-style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/rtl-responsive.css" />
+</head>
+
+<body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+    <form method="post" action="./StudentSchedule" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"
+            />
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+        <script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZLh2XUJAInhzAeAu2m9LCY_p_epSLXy83RLrejDfr98frXPkx0S7r22HhxbeRGuHcw2&amp;t=638393321798026697" type="text/javascript"></script>
+
+
+        <script src="/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1JroMpNVCm_Cl9l3nxDUPi9DsL_1Tvaye5iIJ9V7XAc0adF7wJqu0xt0Yw-tbR6C4JCmZynKPt3ns60aA64Tp33jHM-qRP4tOLnpV0VSYCK6am75W3hfxWaTqpvWT7ITYQ2&amp;t=3e1b2a62" type="text/javascript"></script>
+        <script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+        <script src="Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            //<![CDATA[
+            function WebForm_OnSubmit() {
+                if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+                return true;
+            }
+            //]]>
+        </script>
+
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FDD45507" />
+        </div>
+        <!-- Main Header start -->
+        <header class="main-herader">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+                            <!--Trigger-->
+                            <script type="text/javascript">
+                                //<![CDATA[
+                                Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$UpdatePanel1', 'UpdatePanel1'], [], [], 90, 'ctl00');
+                                //]]>
+                            </script>
+
+                            <a href="Account.aspx" id="A2" class="login-trigger">تسجيل الخروج</a><a href="StudentSchedule.aspx" id="A5" class="login-trigger">لوحة التحكم</a>
+
+
+
+                            <div id="login" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div id="UpdatePanel1">
+
+                                                <button data-dismiss="modal" class="close">&times;</button>
+                                                <h4 id="l1">تسجيل الدخول للطلبه</h4>
+
+                                                <div>
+                                                    <label>الكليات</label>
+                                                    <select name="ctl00$CatDropDown" id="CatDropDown" class="form-control">
+		<option value="0">--أختر الكليه--</option>
+		<option value="1">كلية التربية</option>
+		<option value="2">كلية التكنولوجيا والتعليم</option>
+		<option value="3">كلية التمريض</option>
+		<option value="4">كلية الصيدله</option>
+		<option value="5">كلية التربية الرياضية</option>
+		<option value="7">كلية الحقوق</option>
+		<option value="8">كلية الطب</option>
+		<option value="9">كلية الطب البيطرى</option>
+		<option value="10">كلية العلوم</option>
+		<option value="11">كلية الآداب</option>
+		<option value="12">كلية التجارة</option>
+		<option value="358">كلية التربية للطفولة المبكرة</option>
+		<option value="431">كلية الهندسة</option>
+		<option value="579">كلية السياسة والاقتصاد</option>
+		<option value="588">كلية الاعلام</option>
+		<option value="590">كلية الحاسبات والذكاء الاصطناعى</option>
+		<option value="591">كلية طب الاسنان</option>
+		<option value="592">كلية العلاج الطبيعى</option>
+		<option value="593">كلية الدراسات العليا للعلوم المتقدمة</option>
+		<option value="603">كلية الزراعة</option>
+		<option value="604">كلية تكنولوجيا العلوم الصحية التطبيقية</option>
+		<option value="605">كلية الفنون التطبيقية</option>
+		<option value="607">كلية الخدمة الاجتماعية التنموية</option>
+		<option value="609">كلية الالسن</option>
+		<option value="610">كلية السياحة والفنادق</option>
+		<option value="612">كلية علوم الارض</option>
+		<option value="613">كلية علوم ذوى الاحتياجات الخاصة</option>
+		<option value="625">معهد فنى تمريض</option>
+		<option value="633">معهد ابحاث وتطبيقات الليزر</option>
+		<option value="654">كليات التعليم المفتوح بالجامعة</option>
+		<option value="656">المعهد القومى لعلوم المسنين</option>
+		<option value="681">كلية علوم الملاحة و تكنولوجيا الفضاء</option>
+		<option value="684">معهد دراسات المشروعات الصغيرة والمتوسطة</option>
+		<option value="706">معهد ابحاث النباتات الطبية والعطرية</option>
+
+	</select>
+                                                    <input name="ctl00$txtmail" type="text" id="txtmail" class="username form-control" placeholder=" الرقم القومى " onkeydown="return (!(event.keyCode>=65 &amp;&amp; event.keyCode&lt;=90 ) &amp;&amp; event.keyCode!=32);" />
+                                                    <span id="revphone" style="display:none;">لا يقبل اقل من 10 رقم</span>
+
+                                                    <input name="ctl00$txtPassword" type="password" id="txtPassword" class="password form-control" placeholder="كلمة المرور" />
+
+
+
+                                                    <span id="RegularExpressionValidator2" style="color:DarkRed;display:none;">كلمة المرور يجب ان لا تقل عن 6 أحرف او ارقام.</span>
+
+                                                    <input type="submit" name="ctl00$BtnSubmit" value="تسجيل" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BtnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="BtnSubmit" class="btn login"
+                                                    />
+
+
+
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+                            <div class="herader-topbar-col tobar-rightside center991">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/BSUUniv" id="facebook1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a id="twitter1"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a id="linkedin1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a id="fpint1"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <!-- Blog Start -->
+                <section class="blog-area">
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div id="content_Div3">
+                                <div class="col-md-3">
+                                    <div class="student">
+                                        <div class="pic"><img src="http://www.mis.bsu.edu.eg/umisswf/documents/2/3/Students/52/1959723/2106637825153474621382.jpg" alt="image" /></div>
+                                        <p>مرحبا</p>
+                                        <h3><a href="#">محمد عبد السلام محمد منصور</a></h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="student">
+                                        <h4>بيانات الطالب :</h4>
+                                        <p>
+                                            <h2>الرقم القومى :30303272200839</h2>
+                                            <h2>الكليه :كلية التمريض</h2>
+                                            <h2>القسم :كلية التمريض</h2>
+                                            <h2>الفرقه المقيد بها :الفرقة الثالثة</h2>
+                                            <h2>رقم الجلوس :2665</h2>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid gap-2">
+                                    <a href="ChangePassword.aspx" id="content_Ap" type="button" class="btn btn-primary">تغيير كلمة السر</a>
+                                    <a href="ShowLectures.aspx" id="content_hd3" type="button" class="btn btn-primary">الكتب الدراسيه</a>
+                                    <a href="ShowSchedule.aspx" id="content_hd1" type="button" class="btn btn-primary">الجدول الدراسى</a>
+                                    <a href="ShowExamSchedule.aspx" id="content_hd2" type="button" class="btn btn-primary">جدول الامتحانات</a>
+                                    <a href="Materials_Quiz.aspx" id="content_hd5" type="button" class="btn btn-primary">التطبيقات والتقييم</a>
+                                    <a href="Announcements.aspx" id="content_A2" type="button" class="btn btn-primary">تنبيهات هيئة التدريس</a>
+
+                                    <a href="ShowResult.aspx" id="content_hd4" type="button" class="btn btn-primary">نتائج الاختبارات الالكترونيه</a>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </section>
+
+
+            </div>
+
+
+            <!-- Copyright start from here -->
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright-col text-center">
+                            <p id="Copy">جميع الحقوق محفوظة &#169;جامعة بنى سويف - مشروع البوابه الالكترونيه</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="counter-col text-center">
+                            <p id="visitNum" class="number">42913063 زائر </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="js/jquery.min.js"></script>
+            <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $(".fancybox").fancybox();
+                });
+            </script>
+            <!-- jQuery -->
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- All Included JavaScript -->
+            <script src="js/bootstrap-dropdownhover.min.js"></script>
+            <script src="js/jquery-scrolltofixed-min.js"></script>
+            <script src="js/bootstrap-datepicker.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/jquery.countup.min.js"></script>
+            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="js/dyscrollup.js"></script>
+            <script src="js/VideoPlayerPopUp.js"></script>
+            <script src="js/jquery.mb.YTPlayer.min.js"></script>
+            <script src="js/animated-text.js"></script>
+            <script src="js/wow.min.js"></script>
+
+            <!-- Custom Js -->
+            <script src="js/main.js"></script>
+
+            <script type="text/javascript">
+                //<![CDATA[
+                var Page_Validators = new Array(document.getElementById("revphone"), document.getElementById("RegularExpressionValidator2"));
+                //]]>
+            </script>
+
+            <script type="text/javascript">
+                //<![CDATA[
+                var revphone = document.all ? document.all["revphone"] : document.getElementById("revphone");
+                revphone.controltovalidate = "txtmail";
+                revphone.errormessage = "لا يقبل اقل من 10 رقم";
+                revphone.display = "Dynamic";
+                revphone.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+                revphone.validationexpression = "^[\\s\\S]{10,40}$";
+                var RegularExpressionValidator2 = document.all ? document.all["RegularExpressionValidator2"] : document.getElementById("RegularExpressionValidator2");
+                RegularExpressionValidator2.controltovalidate = "Password1";
+                RegularExpressionValidator2.errormessage = "كلمة المرور يجب ان لا تقل عن 6 أحرف او ارقام.";
+                RegularExpressionValidator2.display = "Dynamic";
+                RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+                RegularExpressionValidator2.validationexpression = "^[\\s\\S]{6,}$";
+                //]]>
+            </script>
+
+
+            <script type="text/javascript">
+                //<![CDATA[
+
+                var Page_ValidationActive = false;
+                if (typeof(ValidatorOnLoad) == "function") {
+                    ValidatorOnLoad();
+                }
+
+                function ValidatorOnSubmit() {
+                    if (Page_ValidationActive) {
+                        return ValidatorCommonOnSubmit();
+                    } else {
+                        return true;
+                    }
+                }
+
+                document.getElementById('revphone').dispose = function() {
+                    Array.remove(Page_Validators, document.getElementById('revphone'));
+                }
+
+                document.getElementById('RegularExpressionValidator2').dispose = function() {
+                    Array.remove(Page_Validators, document.getElementById('RegularExpressionValidator2'));
+                }
+                //]]>
+            </script>
+    </form>
+</body>
+
+</html>

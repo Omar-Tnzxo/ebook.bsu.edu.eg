@@ -1,0 +1,1 @@
+chrome-extension://ffeplcclnhichbeocjmighhccebmdicn/dist/contentScripts/index.global.js
